@@ -542,6 +542,9 @@
     <Compile Include="SamplePages\ImageCropper\ImageCropperPage.xaml.cs">
       <DependentUpon>ImageCropperPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SamplePages\TokenizingTextBox\TokenizingTextBoxPage.xaml.cs">
+      <DependentUpon>TokenizingTextBoxPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Shell.Search.cs" />
     <Compile Include="Shell.SamplePicker.cs" />
     <Content Include="SamplePages\ViewportBehavior\ViewportBehaviorXaml.bind" />
@@ -1023,6 +1026,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="SamplePages\TokenizingTextBox\TokenizingTextBoxPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <None Include="SamplePages\TokenizingTextBox\TokenizingTextBoxXaml.bind">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </None>
     <Page Include="SamplePages\UniformGrid\UniformGridPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
